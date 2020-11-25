@@ -9,31 +9,30 @@ body {
   text-align: center;
 }
 .textsCenter {
-  top: 30px;
-  left: 450px;
+  top: 50px;
+  left: 400px;
   position: absolute;
+  font-family: "Nothing You Could Do", cursive;
 }
 p {
-  position: absolute;
+  /* position: absolute; */
   top: 70px;
   left: 480px;
+  font-family: "Actor", sans-serif;
 }
 
 .topContainer {
   background-color: orange;
   margin: 0 auto 0 auto;
+  padding-top: 100px;
+  margin-bottom: 50px;
 }
 .midContainer {
-  background-color: blue;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
+}
+.rotateimg180 {
+  transform: rotate(30deg);
 }
 .bottomContainer {
-  background-color: red;
-  width: 200px;
-  height: 200px;
-  display: inline-block;
 }
 .cloud1 {
   position: absolute;
@@ -43,4 +42,13 @@ p {
 .cloud2 {
   position: absolute;
   top: 200px;
+}
+h1 {
+  font-family: "Permanent Marker", cursive;
+}
+h2 {
+  font-family: "Permanent Marker", cursive;
+}
+h3 {
+  font-family: "Permanent Marker", cursive;
 }
