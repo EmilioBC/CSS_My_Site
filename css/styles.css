@@ -12,7 +12,7 @@ body {
 }
 .textsCenter {
   text-align: center;
-  top: 50px;
+  /* top: 5px; */
   /* left: 400px; */
   /* position: absolute; */
   font-family: "Nothing You Could Do", cursive;
@@ -27,10 +27,26 @@ p {
 
 .topContainer {
   background-color: lightskyblue;
+  height: 450px;
   /* margin: 0 auto 0 auto; */
-  padding-top: 100px;
-  margin-bottom: 50px;
+  /* padding-top: 10px; */
+  margin-bottom: 10px;
   /* width: 1200px; */
+}
+.mountain {
+  position: relative;
+  /* top: 10px; */
+  width: 452px;
+}
+.cloud1 {
+  position: relative;
+  top: 100px;
+  left: 250px;
+}
+.cloud2 {
+  position: absolute;
+  top: 250px;
+  left: 150px;
 }
 .midContainer {
 }
@@ -39,15 +55,7 @@ p {
 }
 .bottomContainer {
 }
-.cloud1 {
-  position: relative;
-  top: 10px;
-  left: 250px;
-}
-.cloud2 {
-  position: absolute;
-  top: 200px;
-}
+
 h1 {
   font-family: "Permanent Marker", cursive;
 }
