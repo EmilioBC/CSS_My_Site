@@ -44,9 +44,9 @@ p {
   left: 250px;
 }
 .cloud2 {
-  position: absolute;
-  top: 250px;
-  left: 150px;
+  position: relative;
+  bottom: 150px;
+  left: 50px;
 }
 .midContainer {
 }
