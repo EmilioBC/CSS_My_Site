@@ -1,74 +1,78 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  Removing all margins, but not adviseable.
-} */
-
 body {
   margin: 0 auto;
   text-align: center;
-  width: 940px;
   background-color: silver;
 }
+.topContainer {
+  /* background-image: linear-gradient(red, yellow); */
+  position: relative;
+  height: 450px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+/* .view {
+  position: relative;
+} */
+
 .textsCenter {
   text-align: center;
   bottom: 70px;
-  position: relative;
+  position: absolute;
   font-family: "Nothing You Could Do", cursive;
 }
 .sub {
-  position: relative;
+  position: absolute;
   bottom: 130px;
 }
-p {
-  position: relative;
-  /* bottom: 100px; */
-  /* left: 480px; */
-  font-family: "Actor", sans-serif;
-  font-size: 20px;
+hr {
+  text-decoration-style: dotted;
 }
-
-.topContainer {
-  background-image: linear-gradient(red, yellow);
-  height: 450px;
-  /* margin: 0 auto 0 auto; */
-  /* padding-top: 10px; */
-  margin-bottom: 10px;
-  /* width: 1200px; */
-}
-.mountain {
-  position: relative;
-  right: 90px;
-  bottom: 204px;
-  width: 452px;
-}
-.cloud1 {
-  position: relative;
-  top: 100px;
-  left: 250px;
-}
-.cloud2 {
-  position: relative;
-  bottom: 350px;
-  left: 10px;
-}
-.midContainer {
+.middle-container {
+  width: 920px;
+  margin: auto;
 }
 .rotateimg180 {
   transform: rotate(30deg);
 }
-.bottomContainer {
+.skill-row {
+  width: 920px;
+  text-align: left;
+  line-height: 2;
+  margin: 100px auto 100px auto;
 }
 
+.html-img {
+  border-radius: 25px;
+  float: left;
+  margin-right: 30px;
+}
+.javascript-img {
+  border-radius: 25px;
+  float: right;
+  margin-left: 30px;
+}
+.JS-title {
+  padding-left: 580px;
+}
+p {
+  position: relative;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px;
+}
 h1 {
   font-family: "Permanent Marker", cursive;
   position: absolute;
   font-size: 90px;
+  color: #636060;
 }
 h2 {
   font-family: "Permanent Marker", cursive;
   font-size: 2.5rem;
+  font-weight: normal;
+  color: #636060;
 }
 h3 {
   font-family: "Permanent Marker", cursive;
+  font-weight: normal;
+  color: #636060;
 }

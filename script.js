@@ -21,25 +21,23 @@
 //   xhr.send();
 // }
 
-
 function loadUsers() {
   var xhr = new XMLHttpRequest();
-  xhr.open('GET','index.html',true);
-  xhr.onload = function() {
+  xhr.open('GET','users.html',true);
+  xhr.onload =  function() {
     if(this.status == 200) {
       var users = JSON.parse(this.responseText);
       var output = '';
-      for (var i in users) {
-        var output +=
-        '<div class="users">'+
-        '<img src="'+avatar_url+'">'+
+      for (var i in users){
+        output +=
+        '<div class="users">
+        '<img src="'+users_avatar+'" width="100" height="100">'+
         '<ul>'+
-        '<li>ID: '+users.id+'</li>'+
-        '</ul>'+
-        '</div>';
-      } 
-      document.getElementById('users').innerHTML = output;
+        '<li>''</li>'
+        '</ul>'
+        '</div>'
+        
+      }
     }
   }
-  xhr.send();
 }
