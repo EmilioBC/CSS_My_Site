@@ -2,19 +2,16 @@
   margin: 0;
   padding: 0;
 }
-body {
-  /* text-align: center; */
-}
 .BGimage {
   background-image: url("/img/codeBG.jpg");
   background-color: black;
-  height: 1500px;
+  height: 1850px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .topContainer {
-  max-width: 960px;
+  max-width: 1000px;
   margin: 0 auto;
   background-color: black;
 }
@@ -50,6 +47,7 @@ body {
   /* position: relative; */
   color: white;
   font-size: 30px;
+  font-family: "Permanent Marker", cursive;
 }
 .topnav a:hover {
   background-color: #ddd;
@@ -62,16 +60,22 @@ body {
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  top: 100px;
+  top: 20px;
   width: 100%;
-  max-width: fit-content;
+  /* max-width: fit-content; */
+  font-family: "Permanent Marker", cursive;
+  font-size: 80px;
+  text-align: center;
 }
 .sub {
   top: 170px;
+  font-size: 40px;
 }
-
+hr {
+  border-bottom-style: 200px dotted;
+}
 .middle-container {
-  max-width: 960px;
+  max-width: 1000px;
   margin: 0 auto;
   background-color: black;
   position: absolute;
@@ -81,18 +85,53 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
+.profile {
+  display: inline-block;
+}
+.pic {
+  margin: 50px;
+  display: inline-block;
+  float: left;
+}
+.intro {
+  margin-right: 50px;
+}
 .bottom-container {
   max-width: 960px;
-  margin: 0 auto;
+  margin: 20px auto 50px auto;
   background-color: black;
-  position: absolute;
   bottom: 450px;
   left: 0;
   right: 0;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  text-align: center;
+  /* margin-top: 20px; */
 }
-p {
+p,
+h2,
+h3,
+.btn {
   color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+}
+h2 {
+  font-family: "Permanent Marker", cursive;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.contact-me {
+  color: white;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+}
+
+.reserve {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.onlinePro,
+.footer-link {
+  margin-top: 50px;
 }
