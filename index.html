@@ -33,7 +33,7 @@
       <div class="profile">
       <img class="pic" src="img/Emilio.png" alt="Emilio profile picture" width="300" height="300">
       <h2>About me.</h2>
-      <p class="intro">Coming out from College, I have always find a way to expand my knowledge thru teaching myself in different programming languages like building web sites and mobile apps. Please see my projects below and let me know as to what or where else I should improve. Thank you.</p>
+      <p class="intro">Coming out from College, I have always made way to expand my knowledge thru teaching myself in different programming languages like building web sites. Please see my projects below and let me know as to what or where else I should improve. It may be not much, but I am still in the process of continues learning and I am hoping to grow more in a company that will give me a chance and contribute to any projects. Thank you.</p>
     </div>
     <hr>
     <div class="skills">
@@ -53,7 +53,11 @@
       <div class="contact-me">
         <h2>Get In Touch</h2>
         <h3>Please do send me an email for any queries.</h3>
-        <a class="btn" href="ecomiling@rocketmail.com"><img src="https://www.flaticon.com/svg/static/icons/svg/893/893292.svg" width="30" height="30">ecomiling@rocketmail.com</a>
+        <form id="contact-form" method="post" action="contactFormHandler.php">
+        <input name="email" type="text" class="form-control" placeholder="Your Email" required><br><input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+          <textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea><br>
+          <input type="submit" class="form-control submit" value="SEND MESSAGE">
+        </form>
         <div class="onlinePro">
         <h3>You can also check my online profiles and see as to what I have been up to. </h3>
         <div class="bottom-container">
