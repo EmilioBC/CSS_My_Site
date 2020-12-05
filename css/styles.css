@@ -11,7 +11,7 @@ body {
 .BGimage {
   background-image: url("/img/codeBG.jpg");
   background-color: black;
-  height: 2400px;
+  height: 2600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -87,7 +87,10 @@ a:hover {
   display: none;
 }
 hr {
-  border-bottom-style: 200px dotted;
+  border: dotted grey 10px;
+  border-bottom: none;
+  width: 15%;
+  margin: 50px auto;
 }
 .middle-container {
   max-width: 1000px;
@@ -186,6 +189,9 @@ form .submit.active {
 .onlinePro,
 .footer-link {
   margin-top: 50px;
+}
+.footer-link {
+  margin: 0 50px 0 50px;
 }
 
 @media (max-width: 470px) {
