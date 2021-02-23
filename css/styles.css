@@ -8,7 +8,6 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: white;
 }
 
 .nav {
@@ -27,6 +26,9 @@ body {
   transition: background-color .3s;
 }
 
+.view {
+  background-image: url("/img/sunset.jpg");
+}
 
 .nav ul li:hover {
   background-color: black ;
